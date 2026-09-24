@@ -1,0 +1,33 @@
+/* FAQ */
+.faq {
+  max-width: 850px;
+  margin: auto;
+}
+.faq details {
+  padding: 20px 22px;
+  margin-bottom: 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+}
+.faq summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--green);
+}
+.faq details p {
+  padding-top: 13px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.soft-section {
+  background: var(--soft);
+}
+
+@media (max-width: 820px) {
+  .faq {
+    max-width: 100%;
+  }
+}
